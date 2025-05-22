@@ -1,0 +1,79 @@
+<table
+  cellpadding="0"
+  cellspacing="0"
+  style="
+    width:100%;
+    max-width:600px;
+    border-radius:8px;
+    overflow:hidden;
+    font-family: 'Segoe UI', sans-serif;
+    color:#f0f0f0;
+  "
+>
+  <tr>
+    <td style="position:relative; padding:0;">
+
+      <!-- Background video -->
+      <video
+        autoplay
+        loop
+        muted
+        playsinline
+        style="
+          position:absolute;
+          top:0; left:0;
+          width:100%; height:100%;
+          object-fit:cover;
+          z-index:0;
+        "
+      >
+        <source 
+          src="https://preview.redd.it/2nay6445fkkc1.gif?width=1920&format=mp4&s=ad2361ecb7674b95f35eabd8bad2c23c427034bf" 
+          type="video/mp4"
+        />
+      </video>
+
+      <!-- Overlay panel -->
+      <div style="position:relative; z-index:1; background:rgba(0,0,0,0.6); padding:20px;">
+        <!-- Your Name -->
+        <h1
+          style="
+            margin:0;
+            font-size:24px;
+            letter-spacing:1px;
+            text-shadow: 0 0 6px rgba(0,255,255,0.8);
+            animation: glow 2.5s ease-in-out infinite;
+          "
+        >
+          Ahmed Nour Allah Mejri
+        </h1>
+        <p style="margin:4px 0 16px; font-size:14px; color:#bbb;">
+          Full Stack Software Engineering Student
+        </p>
+
+        <table cellpadding="0" cellspacing="0">
+          <tr>
+            <td style="font-size:13px; line-height:1.5; color:#f0f0f0;">
+              📧 <a href="mailto:ahmednourallah.mejri@esprit.tn" style="color:#0ff; text-decoration:none;">Ahmednourallah.mejri@esprit.tn</a><br>
+              📞 +216 50 377 598<br>
+              🐙 <a href="https://github.com/mejriahmednourallah" style="color:#0ff; text-decoration:none;">github.com/mejriahmednourallah</a><br>
+              🔗 <a href="https://linkedin.com/in/ahmed-nour-allah-mejri" style="color:#0ff; text-decoration:none;">linkedin.com/in/ahmed-nour-allah-mejri</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+    </td>
+  </tr>
+
+  <tr>
+    <td>
+      <style>
+        @keyframes glow {
+          0%, 100% { text-shadow: 0 0 4px rgba(0,255,255,0.6), 0 0 8px rgba(0,255,255,0.4); }
+          50% { text-shadow: 0 0 8px rgba(0,255,255,1), 0 0 16px rgba(0,255,255,0.8); }
+        }
+      </style>
+    </td>
+  </tr>
+</table>
